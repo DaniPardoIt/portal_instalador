@@ -47,7 +47,7 @@ async function print_repeater_tasas(name='tasas'){
 				html = `
 				<div id="repeater_tasas_${i}" class="repeater-item repeater-closed">
 					<div class="repeater-item-header">
-						<h4>Tasa ${i + 1}</h4>
+						<h4 class="repeater-item-title">Tasa ${i + 1}</h4>
 						<div class="repeater-actions-container">
 							<button id="edit_repeater_tasas__${i}" class="btn btn-azul">
 								<i class="fa-regular fa-pen-to-square"></i>

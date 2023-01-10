@@ -22,3 +22,10 @@ wp-content/plugins/*
 
 wp-content/themes/*
 !wp-content/themes/oondeo-child-theme
+
+!wp-content/plugins/aa-oondeo-functions/**/*.txt
+!wp-content/plugins/cf7-oondeo-fields/**/*.txt
+!wp-content/plugins/exin-api/**/*.txt
+!wp-content/plugins/oondeo-erp/**/*.txt
+!wp-content/plugins/revisa_rest_api/**/*.txt
+!wp-content/themes/oondeo-child-theme/**/*.txt

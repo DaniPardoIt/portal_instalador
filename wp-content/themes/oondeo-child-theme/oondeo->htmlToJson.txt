@@ -1,9 +1,9 @@
 
-!-- 2023/01/10 11:06:40.354300 --!
+!-- 2023/01/10 15:29:02.040200 --!
 $html:
 <div class='pepinillo' data-info='durum'><p>Pero si resulta que lo más peligroso de todo esto va a <b>ser que no</b></p><span>Oondeo <strong data-input='loquequieras.png'>Repeater</strong></span></div>
 
-!-- 2023/01/10 11:06:40.354500 --!
+!-- 2023/01/10 15:29:02.040400 --!
 element:
 DOMElement Object
 (
@@ -32,7 +32,7 @@ DOMElement Object
     [textContent] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que noOondeo Repeater
 )
 
-!-- 2023/01/10 11:06:40.354600 --!
+!-- 2023/01/10 15:29:02.040400 --!
 element:
 DOMElement Object
 (
@@ -61,7 +61,7 @@ DOMElement Object
     [textContent] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que noOondeo Repeater
 )
 
-!-- 2023/01/10 11:06:40.354600 --!
+!-- 2023/01/10 15:29:02.040500 --!
 element:
 DOMElement Object
 (
@@ -90,7 +90,7 @@ DOMElement Object
     [textContent] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que noOondeo Repeater
 )
 
-!-- 2023/01/10 11:06:40.354700 --!
+!-- 2023/01/10 15:29:02.040500 --!
 element:
 DOMElement Object
 (
@@ -119,7 +119,7 @@ DOMElement Object
     [textContent] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que no
 )
 
-!-- 2023/01/10 11:06:40.354800 --!
+!-- 2023/01/10 15:29:02.040600 --!
 element:
 DOMElement Object
 (
@@ -148,7 +148,7 @@ DOMElement Object
     [textContent] => ser que no
 )
 
-!-- 2023/01/10 11:06:40.354800 --!
+!-- 2023/01/10 15:29:02.040600 --!
 element:
 DOMElement Object
 (
@@ -177,7 +177,7 @@ DOMElement Object
     [textContent] => Oondeo Repeater
 )
 
-!-- 2023/01/10 11:06:40.354900 --!
+!-- 2023/01/10 15:29:02.040700 --!
 element:
 DOMElement Object
 (
@@ -206,7 +206,7 @@ DOMElement Object
     [textContent] => Repeater
 )
 
-!-- 2023/01/10 11:06:40.355000 --!
+!-- 2023/01/10 15:29:02.040700 --!
 $doc:
 Array
 (
@@ -285,6 +285,6 @@ Array
 
 )
 
-!-- 2023/01/10 11:06:40.355000 --!
+!-- 2023/01/10 15:29:02.040800 --!
 $json:
 [{"tag":"html","attributes":[],"content":"Pero si resulta que lo m\u00c3\u00a1s peligroso de todo esto va a ser que noOondeo Repeater"},{"tag":"body","attributes":[],"content":"Pero si resulta que lo m\u00c3\u00a1s peligroso de todo esto va a ser que noOondeo Repeater"},{"tag":"div","attributes":{"class":"pepinillo","data-info":"durum"},"content":"Pero si resulta que lo m\u00c3\u00a1s peligroso de todo esto va a ser que noOondeo Repeater"},{"tag":"p","attributes":[],"content":"Pero si resulta que lo m\u00c3\u00a1s peligroso de todo esto va a ser que no"},{"tag":"b","attributes":[],"content":"ser que no"},{"tag":"span","attributes":[],"content":"Oondeo Repeater"},{"tag":"strong","attributes":{"data-input":"loquequieras.png"},"content":"Repeater"}]

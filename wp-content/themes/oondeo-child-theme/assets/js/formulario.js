@@ -286,7 +286,7 @@ function prevDefaultBotonesFormulario(){
         console.log(inSaveButton.val());
       }
 
-			await remove_repeater_wrapper(".repeater-tasas .repeater-wrapper");
+			await remove_repeater_wrapper(".repeater-wrapper");
 
       inSaveButton.val("1");
       form_action.val("save");
@@ -1214,53 +1214,13 @@ function fill_inputs_from_json_object( solicitud ){
 	//Necesitamos una variable que nos permita detectar si se está rellenando los datos del formulario o si se está rellenando los datos de una entidad en concreto. Los input de NIF tienen un event listener que detecta un cambio, haciendo un fetch al backend recuperando los datos de la entidad con el NIF introducido. Entonces cambia los inputs relacionados con esa entidad. El problema es que en la primera carga de datos( la solicitud completa ) cambia todos los inputs, lanzando así la funcionalidad relacionada con los inputs de NIF, sobreescribiendo de nuevo los datos de las entidades, aunque los de la solicitud estuvieran modificados.
 	window.first_load = true;
 
-	let key_tasas = Object.getOwnPropertyNames(solicitud.meta_data)
-	key_tasas = key_tasas.filter( t => {
-		if( t.includes('tasas_') && !t.includes('count') ){
-			return t;
-		}
-	} )
 
-	if(solicitud.meta_data.tasas){
-		let tasas = JSON.parse(solicitud.meta_data.tasas);
-		console.log({'typeof tasas': typeof tasas, 'tasas': tasas })
-		console.log(tasas)
-		window.cf7_oondeo_fields.tasas = [...tasas];
-		console.log({'window.cf7_oondeo_fields.tasas': window.cf7_oondeo_fields.tasas})
-		print_repeater_tasas('tasas')
-	}
-	
-	console.log('Key TASAS')
-	console.log(key_tasas)
-	
-	// let key_tasas_pair = []
-	// key_tasas.forEach( k => {
-  //   //"tasas_justificante_pago__1" --> 1
-  //   //"tasas_justificante_pago__2" --> 2
-  //   let num_k = parseInt(k.split("__").pop()) -1 ;
-	// 	if( !key_tasas_pair[num_k] ){
-	// 		key_tasas_pair[num_k] = k
-	// 	}
-  // } )
-	
-	// console.log('Key TASAS Pair')
-	// console.log(key_tasas_pair)
-	// key_tasas_pair.forEach(k => {
-	// 	wpcf7cf.repeaterAddSub(".wpcf7-form", "tasas");
-	// });
-
-	let row_tasas = key_tasas.length/2
-
-	for( let i = 1; i < row_tasas; i++){
-		wpcf7cf.repeaterAddSub(".wpcf7-form", "tasas");
-	}
-	
 
 	if( configuracionFormularioSolicitud.log_level >= 1 ){
 		console.log("fill_inputs_from_json_object( solicitud )")
 	}
 	let inputs = get_all_cf7_form_inputs();
-	if (configuracionFormularioSolicitud.log_level >= 2) {
+	if (configuracionFormularioSolicitud.log_level >= 1) {
     console.log('INPUTS');
 		console.log(inputs);
   }
@@ -1312,6 +1272,19 @@ function fill_inputs_from_json_object( solicitud ){
 			if (configuracionFormularioSolicitud.log_level >= 1) {
         console.log(`F. Key ${name} no existe en solicitud`);
       }
+		}
+	} )
+
+	//Load RepeaterOondeo
+	inputs = jQuery('.repeateroondeo_main')
+	inputs.each( function(){
+		let name = jQuery(this).attr('name')
+		let data;
+		if( data = window.solicitud.meta_data[name] ){
+			console.log({'data': data})
+			data = JSON.parse( data )
+			window.cf7_oondeo_fields.repeateroondeo['tasas_presupuesto'].objects = data;
+			print_repeateroondeo(name);
 		}
 	} )
 

@@ -1,5 +1,5 @@
 
-!-- 2023/01/10 08:33:06.284700 --!
+!-- 2023/01/10 15:27:52.169500 --!
 tag:
 WPCF7_FormTag Object
 (
@@ -55,23 +55,7 @@ WPCF7_FormTag Object
         )
 
     [attr] => 
-    [content] => <div id="repeater_tasas" class="repeater-item repeater-closed">
-						<div class="repeater-item-header">
-							<h4>Tasa 1</h4>
-							<div class="repeater-actions-container">
-								<button id="edit_repeater_tasas" class="btn btn-azul">
-									<i class="fa-regular fa-pen-to-square"></i>
-								</button>
-								<button id="duplicate_repeater_tasas" class="btn btn-naranja">
-									<i class="fa-regular fa-copy"></i>
-								</button>
-								<button id="remove_repeater_tasas" class="btn btn-error">
-									<i class="fa-regular fa-trash-can"></i>
-								</button>
-							</div>
-						</div>
-						<div class="repeater-input-container grid-2-col gap-20">
-							<div id="grupo_justificante_pago" class="grupo-formulario">
+    [content] => <div id="grupo_justificante_pago" class="grupo-formulario">
 								<label for="justificante_pago">Justificante de Pago</label> 
 								<input type="text" name="justificante_pago" value="" class="wpcf7-form-control wpcf7-hidden">
 							</div>
@@ -91,11 +75,9 @@ WPCF7_FormTag Object
 								<label for="cuenta_bancaria">Cuenta Bancaria</label> 
 								<input type="text" name="cuenta_bancaria" value="" class="wpcf7-form-control wpcf7-hidden">
 							</div>
-						</div>
-					</div>
 )
 
-!-- 2023/01/10 08:33:06.284900 --!
+!-- 2023/01/10 15:27:52.169600 --!
 options:
 Array
 (

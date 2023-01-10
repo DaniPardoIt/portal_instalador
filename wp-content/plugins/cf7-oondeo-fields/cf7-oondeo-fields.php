@@ -92,21 +92,21 @@ function custom_repeater_oondeo_handler( $tag ){
 
     // return $ret;
 
-
+    $name = $tag->name;
 
     $html = <<<EOT
-        <div class="repeater-container" id="{$tag->name}">
+        <div class="repeater-container" id="$name">
             <h3>{$options['title']}</h3>
-            <input type="hidden" name="tasas"/>
+            <input type="hidden" name="$name"/ class="repeateroondeo_main">
             <div class="repeater-wrapper grid-1-col gap-10">
             </div>
-            <button id="add_repeater_tasa" class="btn btn-success">{$options['addButtonText']}</button>
+            <button id="add_repeater_$name" class="btn btn-success">{$options['addButtonText']}</button>
         </div>
         <script>
         jQuery('document').ready( function(){
-            jQuery('#add_repeater_tasa').click( function(evt){
+            jQuery('#add_repeater_$name').click( function(evt){
                 evt.preventDefault();
-                create_cf7_oondeo_repeater('tasas')
+                create_cf7_oondeo_repeater('$name')
              } )
             if( !window.cf7_oondeo_fields ){
                 window.cf7_oondeo_fields = [];
@@ -114,9 +114,10 @@ function custom_repeater_oondeo_handler( $tag ){
             if( !window.cf7_oondeo_fields.repeateroondeo ){
                 window.cf7_oondeo_fields.repeateroondeo = []
             }
-            window.cf7_oondeo_fields.repeateroondeo.{$tag->name} = {
-                'id': `{$tag->name}`,
-                'content': `{$tag->content}`
+            window.cf7_oondeo_fields.repeateroondeo.$name = {
+                'id': `$name`,
+                'content': `{$tag->content}`,
+                'itemTitle': `{$options['itemTitle']}`
             }
         } )
         </script>
