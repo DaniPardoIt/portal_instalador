@@ -1,0 +1,82 @@
+
+!-- 2023/01/10 07:20:18.717700 --!
+Full User
+Array
+(
+    [ID] => 37
+    [data] => Array
+        (
+            [ID] => 37
+            [user_login] => 1V
+            [user_pass] => $P$BRWrsA0Kpoz2MQSs7ZoKkysvsbz9Vv0
+            [user_nicename] => 1
+            [user_email] => 1@v.cim
+            [user_url] => 
+            [user_registered] => 2023-01-04 11:23:41
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => 1V
+        )
+
+    [meta_data] => Array
+        (
+            [nickname] => 1V
+            [first_name] => 1
+            [last_name] => V
+            [description] => 
+            [rich_editing] => true
+            [syntax_highlighting] => true
+            [comment_shortcuts] => false
+            [admin_color] => fresh
+            [use_ssl] => 0
+            [show_admin_bar_front] => true
+            [locale] => 
+            [wp_capabilities] => a:1:{s:7:"tecnico";b:1;}
+            [wp_user_level] => 2
+            [company] => 1 V
+            [phone] => 1
+            [mobile] => 1
+            [other] => 
+            [fax] => 
+            [notes] => NIF/CIF: 1V
+            [street_1] => 1
+            [street_2] => 
+            [city] => 1
+            [state] => 1
+            [postal_code] => 1
+            [country] => 
+            [currency] => 
+            [life_stage] => 
+            [wp-approve-user] => 0
+            [wp-approve-user-new-registration] => 1
+            [tipo_documento] => NIF
+            [tel_fijo] => 1
+            [tel_movil] => 1
+        )
+
+    [roles] => Array
+        (
+            [0] => tecnico
+        )
+
+    [allcaps] => Array
+        (
+            [delete_posts] => 1
+            [delete_published_posts] => 1
+            [edit_posts] => 1
+            [edit_published_posts] => 1
+            [level_0] => 1
+            [level_1] => 1
+            [level_2] => 1
+            [publish_posts] => 1
+            [read] => 1
+            [solicitud_copy] => 1
+            [solicitud_create] => 1
+            [solicitud_edit] => 1
+            [solicitud_remove] => 1
+            [solicitud_send] => 1
+            [upload_files] => 1
+            [tecnico] => 1
+        )
+
+)

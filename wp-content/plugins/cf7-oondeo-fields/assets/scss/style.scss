@@ -1,0 +1,19 @@
+.repeater-wrapper {
+	background-color: #1d1d2e;
+	padding: 25px;
+	border-radius: 5px;
+
+	.repeater-item{
+		.repeater-item-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 20px;
+			background-color: #3c3c3c;
+			padding: 10px;
+			border-radius: 5px;
+		}
+		
+	}
+}
+

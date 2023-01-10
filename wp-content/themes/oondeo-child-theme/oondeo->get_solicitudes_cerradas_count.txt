@@ -1,0 +1,16 @@
+
+!-- 2023/01/09 10:18:23.119000 --!
+Solicitudes Cerradas
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 9
+                )
+
+        )
+
+    [num_solicitudes] => 9
+)

@@ -1,0 +1,290 @@
+
+!-- 2023/01/10 11:06:40.354300 --!
+$html:
+<div class='pepinillo' data-info='durum'><p>Pero si resulta que lo más peligroso de todo esto va a <b>ser que no</b></p><span>Oondeo <strong data-input='loquequieras.png'>Repeater</strong></span></div>
+
+!-- 2023/01/10 11:06:40.354500 --!
+element:
+DOMElement Object
+(
+    [schemaTypeInfo] => 
+    [tagName] => html
+    [firstElementChild] => (object value omitted)
+    [lastElementChild] => (object value omitted)
+    [childElementCount] => 1
+    [previousElementSibling] => 
+    [nextElementSibling] => 
+    [nodeName] => html
+    [nodeValue] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que noOondeo Repeater
+    [nodeType] => 1
+    [parentNode] => (object value omitted)
+    [childNodes] => (object value omitted)
+    [firstChild] => (object value omitted)
+    [lastChild] => (object value omitted)
+    [previousSibling] => (object value omitted)
+    [nextSibling] => 
+    [attributes] => (object value omitted)
+    [ownerDocument] => (object value omitted)
+    [namespaceURI] => 
+    [prefix] => 
+    [localName] => html
+    [baseURI] => 
+    [textContent] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que noOondeo Repeater
+)
+
+!-- 2023/01/10 11:06:40.354600 --!
+element:
+DOMElement Object
+(
+    [schemaTypeInfo] => 
+    [tagName] => body
+    [firstElementChild] => (object value omitted)
+    [lastElementChild] => (object value omitted)
+    [childElementCount] => 1
+    [previousElementSibling] => 
+    [nextElementSibling] => 
+    [nodeName] => body
+    [nodeValue] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que noOondeo Repeater
+    [nodeType] => 1
+    [parentNode] => (object value omitted)
+    [childNodes] => (object value omitted)
+    [firstChild] => (object value omitted)
+    [lastChild] => (object value omitted)
+    [previousSibling] => 
+    [nextSibling] => 
+    [attributes] => (object value omitted)
+    [ownerDocument] => (object value omitted)
+    [namespaceURI] => 
+    [prefix] => 
+    [localName] => body
+    [baseURI] => 
+    [textContent] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que noOondeo Repeater
+)
+
+!-- 2023/01/10 11:06:40.354600 --!
+element:
+DOMElement Object
+(
+    [schemaTypeInfo] => 
+    [tagName] => div
+    [firstElementChild] => (object value omitted)
+    [lastElementChild] => (object value omitted)
+    [childElementCount] => 2
+    [previousElementSibling] => 
+    [nextElementSibling] => 
+    [nodeName] => div
+    [nodeValue] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que noOondeo Repeater
+    [nodeType] => 1
+    [parentNode] => (object value omitted)
+    [childNodes] => (object value omitted)
+    [firstChild] => (object value omitted)
+    [lastChild] => (object value omitted)
+    [previousSibling] => 
+    [nextSibling] => 
+    [attributes] => (object value omitted)
+    [ownerDocument] => (object value omitted)
+    [namespaceURI] => 
+    [prefix] => 
+    [localName] => div
+    [baseURI] => 
+    [textContent] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que noOondeo Repeater
+)
+
+!-- 2023/01/10 11:06:40.354700 --!
+element:
+DOMElement Object
+(
+    [schemaTypeInfo] => 
+    [tagName] => p
+    [firstElementChild] => (object value omitted)
+    [lastElementChild] => (object value omitted)
+    [childElementCount] => 1
+    [previousElementSibling] => 
+    [nextElementSibling] => (object value omitted)
+    [nodeName] => p
+    [nodeValue] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que no
+    [nodeType] => 1
+    [parentNode] => (object value omitted)
+    [childNodes] => (object value omitted)
+    [firstChild] => (object value omitted)
+    [lastChild] => (object value omitted)
+    [previousSibling] => 
+    [nextSibling] => (object value omitted)
+    [attributes] => (object value omitted)
+    [ownerDocument] => (object value omitted)
+    [namespaceURI] => 
+    [prefix] => 
+    [localName] => p
+    [baseURI] => 
+    [textContent] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que no
+)
+
+!-- 2023/01/10 11:06:40.354800 --!
+element:
+DOMElement Object
+(
+    [schemaTypeInfo] => 
+    [tagName] => b
+    [firstElementChild] => 
+    [lastElementChild] => 
+    [childElementCount] => 0
+    [previousElementSibling] => 
+    [nextElementSibling] => 
+    [nodeName] => b
+    [nodeValue] => ser que no
+    [nodeType] => 1
+    [parentNode] => (object value omitted)
+    [childNodes] => (object value omitted)
+    [firstChild] => (object value omitted)
+    [lastChild] => (object value omitted)
+    [previousSibling] => (object value omitted)
+    [nextSibling] => 
+    [attributes] => (object value omitted)
+    [ownerDocument] => (object value omitted)
+    [namespaceURI] => 
+    [prefix] => 
+    [localName] => b
+    [baseURI] => 
+    [textContent] => ser que no
+)
+
+!-- 2023/01/10 11:06:40.354800 --!
+element:
+DOMElement Object
+(
+    [schemaTypeInfo] => 
+    [tagName] => span
+    [firstElementChild] => (object value omitted)
+    [lastElementChild] => (object value omitted)
+    [childElementCount] => 1
+    [previousElementSibling] => (object value omitted)
+    [nextElementSibling] => 
+    [nodeName] => span
+    [nodeValue] => Oondeo Repeater
+    [nodeType] => 1
+    [parentNode] => (object value omitted)
+    [childNodes] => (object value omitted)
+    [firstChild] => (object value omitted)
+    [lastChild] => (object value omitted)
+    [previousSibling] => (object value omitted)
+    [nextSibling] => 
+    [attributes] => (object value omitted)
+    [ownerDocument] => (object value omitted)
+    [namespaceURI] => 
+    [prefix] => 
+    [localName] => span
+    [baseURI] => 
+    [textContent] => Oondeo Repeater
+)
+
+!-- 2023/01/10 11:06:40.354900 --!
+element:
+DOMElement Object
+(
+    [schemaTypeInfo] => 
+    [tagName] => strong
+    [firstElementChild] => 
+    [lastElementChild] => 
+    [childElementCount] => 0
+    [previousElementSibling] => 
+    [nextElementSibling] => 
+    [nodeName] => strong
+    [nodeValue] => Repeater
+    [nodeType] => 1
+    [parentNode] => (object value omitted)
+    [childNodes] => (object value omitted)
+    [firstChild] => (object value omitted)
+    [lastChild] => (object value omitted)
+    [previousSibling] => (object value omitted)
+    [nextSibling] => 
+    [attributes] => (object value omitted)
+    [ownerDocument] => (object value omitted)
+    [namespaceURI] => 
+    [prefix] => 
+    [localName] => strong
+    [baseURI] => 
+    [textContent] => Repeater
+)
+
+!-- 2023/01/10 11:06:40.355000 --!
+$doc:
+Array
+(
+    [0] => Array
+        (
+            [tag] => html
+            [attributes] => Array
+                (
+                )
+
+            [content] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que noOondeo Repeater
+        )
+
+    [1] => Array
+        (
+            [tag] => body
+            [attributes] => Array
+                (
+                )
+
+            [content] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que noOondeo Repeater
+        )
+
+    [2] => Array
+        (
+            [tag] => div
+            [attributes] => Array
+                (
+                    [class] => pepinillo
+                    [data-info] => durum
+                )
+
+            [content] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que noOondeo Repeater
+        )
+
+    [3] => Array
+        (
+            [tag] => p
+            [attributes] => Array
+                (
+                )
+
+            [content] => Pero si resulta que lo mÃ¡s peligroso de todo esto va a ser que no
+        )
+
+    [4] => Array
+        (
+            [tag] => b
+            [attributes] => Array
+                (
+                )
+
+            [content] => ser que no
+        )
+
+    [5] => Array
+        (
+            [tag] => span
+            [attributes] => Array
+                (
+                )
+
+            [content] => Oondeo Repeater
+        )
+
+    [6] => Array
+        (
+            [tag] => strong
+            [attributes] => Array
+                (
+                    [data-input] => loquequieras.png
+                )
+
+            [content] => Repeater
+        )
+
+)
+
+!-- 2023/01/10 11:06:40.355000 --!
+$json:
+[{"tag":"html","attributes":[],"content":"Pero si resulta que lo m\u00c3\u00a1s peligroso de todo esto va a ser que noOondeo Repeater"},{"tag":"body","attributes":[],"content":"Pero si resulta que lo m\u00c3\u00a1s peligroso de todo esto va a ser que noOondeo Repeater"},{"tag":"div","attributes":{"class":"pepinillo","data-info":"durum"},"content":"Pero si resulta que lo m\u00c3\u00a1s peligroso de todo esto va a ser que noOondeo Repeater"},{"tag":"p","attributes":[],"content":"Pero si resulta que lo m\u00c3\u00a1s peligroso de todo esto va a ser que no"},{"tag":"b","attributes":[],"content":"ser que no"},{"tag":"span","attributes":[],"content":"Oondeo Repeater"},{"tag":"strong","attributes":{"data-input":"loquequieras.png"},"content":"Repeater"}]

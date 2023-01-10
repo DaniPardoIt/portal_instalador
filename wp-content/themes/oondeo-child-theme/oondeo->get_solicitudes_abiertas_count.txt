@@ -1,0 +1,16 @@
+
+!-- 2023/01/09 10:18:23.118500 --!
+Solicitudes Abiertas
+Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 12
+                )
+
+        )
+
+    [num_solicitudes] => 12
+)

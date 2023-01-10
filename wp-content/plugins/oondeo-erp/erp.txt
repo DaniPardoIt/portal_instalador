@@ -1,0 +1,278 @@
+
+!-- 2022/12/29 10:54:43.176400 --!
+PEOPLE: 
+6
+
+!-- 2022/12/29 10:54:43.176500 --!
+PEOPLE: 
+WeDevs\ERP\Framework\Models\People Object
+(
+    [connection:protected] => wp-eloquent-mysql2
+    [table:protected] => erp_peoples
+    [primaryKey:protected] => id
+    [keyType:protected] => int
+    [incrementing] => 1
+    [with:protected] => Array
+        (
+        )
+
+    [withCount:protected] => Array
+        (
+        )
+
+    [perPage:protected] => 15
+    [exists] => 1
+    [wasRecentlyCreated] => 1
+    [attributes:protected] => Array
+        (
+            [user_id] => 18
+            [first_name] => p1
+            [last_name] => p1
+            [email] => p1@oondeo.es
+            [website] => 
+            [hash] => 95db2e7deda8547e25413d7b507a6bd2c5647648
+            [contact_owner] => 1
+            [created_by] => 1
+            [created] => 2022-12-29 10:54:43
+            [id] => 6
+            [is_wp_user] => 
+            [wp_user_id] => 
+            [people_id] => 6
+            [type] => customer
+        )
+
+    [original:protected] => Array
+        (
+            [user_id] => 18
+            [first_name] => p1
+            [last_name] => p1
+            [email] => p1@oondeo.es
+            [website] => 
+            [hash] => 95db2e7deda8547e25413d7b507a6bd2c5647648
+            [contact_owner] => 1
+            [created_by] => 1
+            [created] => 2022-12-29 10:54:43
+            [id] => 6
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+        )
+
+    [dateFormat:protected] => 
+    [appends:protected] => Array
+        (
+        )
+
+    [events:protected] => Array
+        (
+        )
+
+    [observables:protected] => Array
+        (
+        )
+
+    [relations:protected] => Array
+        (
+            [types] => Illuminate\Database\Eloquent\Collection Object
+                (
+                    [items:protected] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [touches:protected] => Array
+        (
+        )
+
+    [timestamps] => 
+    [hidden:protected] => Array
+        (
+        )
+
+    [visible:protected] => Array
+        (
+        )
+
+    [fillable:protected] => Array
+        (
+            [0] => user_id
+            [1] => first_name
+            [2] => last_name
+            [3] => company
+            [4] => email
+            [5] => phone
+            [6] => mobile
+            [7] => other
+            [8] => website
+            [9] => fax
+            [10] => notes
+            [11] => street_1
+            [12] => street_2
+            [13] => city
+            [14] => state
+            [15] => postal_code
+            [16] => country
+            [17] => currency
+            [18] => life_stage
+            [19] => hash
+            [20] => contact_owner
+            [21] => created_by
+            [22] => created
+        )
+
+    [guarded:protected] => Array
+        (
+            [0] => *
+        )
+
+    [prefixed_table:protected] => wp_erp_peoples
+)
+
+!-- 2022/12/29 10:54:43.176600 --!
+PEOPLE: 
+contact
+
+!-- 2022/12/29 10:59:34.964300 --!
+PEOPLE: 
+7
+
+!-- 2022/12/29 10:59:34.964400 --!
+PEOPLE: 
+WeDevs\ERP\Framework\Models\People Object
+(
+    [connection:protected] => wp-eloquent-mysql2
+    [table:protected] => erp_peoples
+    [primaryKey:protected] => id
+    [keyType:protected] => int
+    [incrementing] => 1
+    [with:protected] => Array
+        (
+        )
+
+    [withCount:protected] => Array
+        (
+        )
+
+    [perPage:protected] => 15
+    [exists] => 1
+    [wasRecentlyCreated] => 1
+    [attributes:protected] => Array
+        (
+            [user_id] => 19
+            [first_name] => p2
+            [last_name] => p2
+            [email] => aa@local.com
+            [website] => 
+            [hash] => 32bdce15f2dac5d1633cba4e517daff4364bb561
+            [contact_owner] => 1
+            [created_by] => 1
+            [created] => 2022-12-29 10:59:34
+            [id] => 7
+            [is_wp_user] => 
+            [wp_user_id] => 
+            [people_id] => 7
+            [type] => customer
+        )
+
+    [original:protected] => Array
+        (
+            [user_id] => 19
+            [first_name] => p2
+            [last_name] => p2
+            [email] => aa@local.com
+            [website] => 
+            [hash] => 32bdce15f2dac5d1633cba4e517daff4364bb561
+            [contact_owner] => 1
+            [created_by] => 1
+            [created] => 2022-12-29 10:59:34
+            [id] => 7
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+        )
+
+    [dateFormat:protected] => 
+    [appends:protected] => Array
+        (
+        )
+
+    [events:protected] => Array
+        (
+        )
+
+    [observables:protected] => Array
+        (
+        )
+
+    [relations:protected] => Array
+        (
+            [types] => Illuminate\Database\Eloquent\Collection Object
+                (
+                    [items:protected] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [touches:protected] => Array
+        (
+        )
+
+    [timestamps] => 
+    [hidden:protected] => Array
+        (
+        )
+
+    [visible:protected] => Array
+        (
+        )
+
+    [fillable:protected] => Array
+        (
+            [0] => user_id
+            [1] => first_name
+            [2] => last_name
+            [3] => company
+            [4] => email
+            [5] => phone
+            [6] => mobile
+            [7] => other
+            [8] => website
+            [9] => fax
+            [10] => notes
+            [11] => street_1
+            [12] => street_2
+            [13] => city
+            [14] => state
+            [15] => postal_code
+            [16] => country
+            [17] => currency
+            [18] => life_stage
+            [19] => hash
+            [20] => contact_owner
+            [21] => created_by
+            [22] => created
+        )
+
+    [guarded:protected] => Array
+        (
+            [0] => *
+        )
+
+    [prefixed_table:protected] => wp_erp_peoples
+)

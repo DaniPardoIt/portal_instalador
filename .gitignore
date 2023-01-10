@@ -1,0 +1,24 @@
+
+# Ignore everything in the root except the "wp-content" directory.
+/*
+!.gitignore
+!wp-content/
+
+# Ignore everything in the "wp-content" directory, except the "plugins"
+# and "themes" directories.
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
+
+# Ignore everything in the "plugins" directory, except the plugins you
+# specify (see the commented-out examples for hints on how to do this.)
+wp-content/plugins/*
+!wp-content/plugins/aa-oondeo-functions
+!wp-content/plugins/cf7-oondeo-fields
+!wp-content/plugins/exin-api
+!wp-content/plugins/oondeo-erp
+!wp-content/plugins/revisa_rest_api
+
+wp-content/themes/*
+!wp-content/themes/oondeo-child-theme

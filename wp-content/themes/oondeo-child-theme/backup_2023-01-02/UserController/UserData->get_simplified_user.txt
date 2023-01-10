@@ -1,0 +1,1552 @@
+
+!-- 2023/01/02 07:21:08.130000 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => 1253645N
+                    [user_email] => dani1@dani.com
+                    [display_name] => 1253645N
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => 1253645N
+                    [first_name] => 
+                    [last_name] => 
+                    [wp-approve-user] => 
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 23
+                    [user_login] => 1253645N
+                    [user_pass] => $P$BTw7YEjZdeM4sVzB3BiHznuvnhasoD.
+                    [user_nicename] => dani1
+                    [user_email] => dani1@dani.com
+                    [user_url] => 
+                    [user_registered] => 2022-12-29 12:13:22
+                    [user_activation_key] => 
+                    [user_status] => 0
+                    [display_name] => 1253645N
+                )
+
+            [ID] => 23
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:21:08.130100 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => 22222222JA
+                    [user_email] => dani@dos.com
+                    [display_name] => 22222222JA
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => 22222222JA
+                    [first_name] => Prueba
+                    [last_name] => Dos
+                    [wp-approve-user] => 
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 25
+                    [user_login] => 22222222JA
+                    [user_pass] => $P$BPEhVP5z6nzaqmPNeEjWuATq7pGKCM/
+                    [user_nicename] => prueba
+                    [user_email] => dani@dos.com
+                    [user_url] => 
+                    [user_registered] => 2022-12-29 12:22:01
+                    [user_activation_key] => 
+                    [user_status] => 0
+                    [display_name] => 22222222JA
+                )
+
+            [ID] => 25
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:21:08.130200 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => 253645NNNN
+                    [user_email] => dani@dani.nnn
+                    [display_name] => 253645NNNN
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => 253645NNNN
+                    [first_name] => 
+                    [last_name] => 
+                    [wp-approve-user] => 
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 24
+                    [user_login] => 253645NNNN
+                    [user_pass] => $P$BLDz2ivTvjAWS08GeBREX1uQtl/YwE1
+                    [user_nicename] => dani
+                    [user_email] => dani@dani.nnn
+                    [user_url] => 
+                    [user_registered] => 2022-12-29 12:13:34
+                    [user_activation_key] => 
+                    [user_status] => 0
+                    [display_name] => 253645NNNN
+                )
+
+            [ID] => 24
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:21:08.130300 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => 267253645N
+                    [user_email] => dani@dani.com
+                    [display_name] => 267253645N
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => 267253645N
+                    [first_name] => DANI
+                    [last_name] => PARDO
+                    [wp-approve-user] => 
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 17
+                    [user_login] => 267253645N
+                    [user_pass] => $P$B2ApNm5zrZHStFOIO7MnQ85mPMOmjV.
+                    [user_nicename] => 267253645n
+                    [user_email] => dani@dani.com
+                    [user_url] => 
+                    [user_registered] => 2022-12-22 11:41:21
+                    [user_activation_key] => 
+                    [user_status] => 0
+                    [display_name] => 267253645N
+                )
+
+            [ID] => 17
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:21:08.130400 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => Inspector
+                    [user_email] => dani@oondeo.es
+                    [display_name] => Inspector
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => Inspector
+                    [first_name] => Inspector
+                    [last_name] => 
+                    [wp-approve-user] => 1
+                )
+
+            [roles] => Array
+                (
+                    [0] => inspector
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 4
+                    [user_login] => Inspector
+                    [user_pass] => $P$BU4ICtTQFq.NfqpjAqu7ZkWAlemC9d.
+                    [user_nicename] => inspector
+                    [user_email] => dani@oondeo.es
+                    [user_url] => 
+                    [user_registered] => 2022-11-02 08:15:16
+                    [user_activation_key] => 1667376916:$P$BVZK0HsafLzDj.Nfa0Gi.40mj53Gdt0
+                    [user_status] => 0
+                    [display_name] => Inspector
+                )
+
+            [ID] => 4
+            [caps] => Array
+                (
+                    [inspector] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => inspector
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_others_pages] => 1
+                    [delete_others_posts] => 1
+                    [delete_pages] => 1
+                    [delete_posts] => 1
+                    [delete_private_pages] => 1
+                    [delete_private_posts] => 1
+                    [delete_published_pages] => 1
+                    [delete_published_posts] => 1
+                    [edit_others_pages] => 1
+                    [edit_others_posts] => 1
+                    [edit_pages] => 1
+                    [edit_posts] => 1
+                    [edit_private_pages] => 1
+                    [edit_private_posts] => 1
+                    [edit_published_pages] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [level_3] => 1
+                    [level_4] => 1
+                    [level_5] => 1
+                    [level_6] => 1
+                    [level_7] => 1
+                    [manage_categories] => 1
+                    [manage_links] => 1
+                    [moderate_comments] => 1
+                    [publish_pages] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [read_private_pages] => 1
+                    [read_private_posts] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_copy_another_author] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_edit_another_author] => 1
+                    [solicitud_error_management] => 1
+                    [solicitud_read_another_author] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_remove_another_author] => 1
+                    [solicitud_send] => 1
+                    [solicitud_send_exim] => 1
+                    [unfiltered_html] => 1
+                    [upload_files] => 1
+                    [wpcf7_delete_contact_forms] => 1
+                    [wpcf7_delete_others_contact_forms] => 1
+                    [wpcf7_delete_published_contact_forms] => 1
+                    [wpcf7_edit_contact_forms] => 1
+                    [wpcf7_edit_others_contact_forms] => 1
+                    [wpcf7_edit_published_contact_forms] => 1
+                    [wpcf7_publish_contact_forms] => 1
+                    [wpcf7_read_contact_forms] => 1
+                    [inspector] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:21:08.130400 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => p2
+                    [user_email] => aa@local.com
+                    [display_name] => p2 p2
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => p2
+                    [first_name] => p2
+                    [last_name] => p2
+                    [wp-approve-user] => 1
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 19
+                    [user_login] => p2
+                    [user_pass] => $P$B9pn6fKdMHjrRVgqqY4karLuVSRa2B.
+                    [user_nicename] => p2
+                    [user_email] => aa@local.com
+                    [user_url] => 
+                    [user_registered] => 2022-12-29 10:59:34
+                    [user_activation_key] => 
+                    [user_status] => 0
+                    [display_name] => p2 p2
+                )
+
+            [ID] => 19
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:21:08.130500 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => p3
+                    [user_email] => p3@local.com
+                    [display_name] => p3 p3
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => p3
+                    [first_name] => p3
+                    [last_name] => p3
+                    [wp-approve-user] => 1
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 20
+                    [user_login] => p3
+                    [user_pass] => $P$BK26HetkFA2e2Gu4gTogbLUXgFB2S9.
+                    [user_nicename] => p3
+                    [user_email] => p3@local.com
+                    [user_url] => 
+                    [user_registered] => 2022-12-29 11:16:55
+                    [user_activation_key] => 
+                    [user_status] => 0
+                    [display_name] => p3 p3
+                )
+
+            [ID] => 20
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:21:08.130600 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => prueba1
+                    [user_email] => p1@oondeo.es
+                    [display_name] => p1 p1
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => prueba1
+                    [first_name] => p1
+                    [last_name] => p1
+                    [wp-approve-user] => 1
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 18
+                    [user_login] => prueba1
+                    [user_pass] => $P$BHdGyeDwsCLzS4qIXmSN.IMEx/HXuu.
+                    [user_nicename] => prueba1
+                    [user_email] => p1@oondeo.es
+                    [user_url] => 
+                    [user_registered] => 2022-12-29 10:54:43
+                    [user_activation_key] => 1672311283:$P$B8lJus6IBRIgFfILf.FkvQYrXKTGAA/
+                    [user_status] => 0
+                    [display_name] => p1 p1
+                )
+
+            [ID] => 18
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:21:08.130700 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => Tecnico
+                    [user_email] => dani@info.com
+                    [display_name] => Tecnico
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => Tecnico
+                    [first_name] => Tecnico
+                    [last_name] => 
+                    [wp-approve-user] => 1
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 3
+                    [user_login] => Tecnico
+                    [user_pass] => $P$BjRwx/LOKm5wuRSmL1txov1RDD3WAE.
+                    [user_nicename] => tecnico
+                    [user_email] => dani@info.com
+                    [user_url] => 
+                    [user_registered] => 2022-11-02 08:14:44
+                    [user_activation_key] => 1667376884:$P$BI4tBUmRvGQIDlpe8fDXaqCbOnqx9F0
+                    [user_status] => 0
+                    [display_name] => Tecnico
+                )
+
+            [ID] => 3
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:54:17.078000 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => 1253645N
+                    [user_email] => dani1@dani.com
+                    [display_name] => 1253645N
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => 1253645N
+                    [first_name] => 
+                    [last_name] => 
+                    [wp-approve-user] => 
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 23
+                    [user_login] => 1253645N
+                    [user_pass] => $P$BTw7YEjZdeM4sVzB3BiHznuvnhasoD.
+                    [user_nicename] => dani1
+                    [user_email] => dani1@dani.com
+                    [user_url] => 
+                    [user_registered] => 2022-12-29 12:13:22
+                    [user_activation_key] => 
+                    [user_status] => 0
+                    [display_name] => 1253645N
+                )
+
+            [ID] => 23
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:54:17.078100 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => 22222222JA
+                    [user_email] => dani@dos.com
+                    [display_name] => 22222222JA
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => 22222222JA
+                    [first_name] => Prueba
+                    [last_name] => Dos
+                    [wp-approve-user] => 
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 25
+                    [user_login] => 22222222JA
+                    [user_pass] => $P$BPEhVP5z6nzaqmPNeEjWuATq7pGKCM/
+                    [user_nicename] => prueba
+                    [user_email] => dani@dos.com
+                    [user_url] => 
+                    [user_registered] => 2022-12-29 12:22:01
+                    [user_activation_key] => 
+                    [user_status] => 0
+                    [display_name] => 22222222JA
+                )
+
+            [ID] => 25
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:54:17.078200 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => 253645NNNN
+                    [user_email] => dani@dani.nnn
+                    [display_name] => 253645NNNN
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => 253645NNNN
+                    [first_name] => 
+                    [last_name] => 
+                    [wp-approve-user] => 
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 24
+                    [user_login] => 253645NNNN
+                    [user_pass] => $P$BLDz2ivTvjAWS08GeBREX1uQtl/YwE1
+                    [user_nicename] => dani
+                    [user_email] => dani@dani.nnn
+                    [user_url] => 
+                    [user_registered] => 2022-12-29 12:13:34
+                    [user_activation_key] => 
+                    [user_status] => 0
+                    [display_name] => 253645NNNN
+                )
+
+            [ID] => 24
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:54:17.078300 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => 267253645N
+                    [user_email] => dani@dani.com
+                    [display_name] => 267253645N
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => 267253645N
+                    [first_name] => DANI
+                    [last_name] => PARDO
+                    [wp-approve-user] => 
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 17
+                    [user_login] => 267253645N
+                    [user_pass] => $P$B2ApNm5zrZHStFOIO7MnQ85mPMOmjV.
+                    [user_nicename] => 267253645n
+                    [user_email] => dani@dani.com
+                    [user_url] => 
+                    [user_registered] => 2022-12-22 11:41:21
+                    [user_activation_key] => 
+                    [user_status] => 0
+                    [display_name] => 267253645N
+                )
+
+            [ID] => 17
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:54:17.078300 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => Inspector
+                    [user_email] => dani@oondeo.es
+                    [display_name] => Inspector
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => Inspector
+                    [first_name] => Inspector
+                    [last_name] => 
+                    [wp-approve-user] => 1
+                )
+
+            [roles] => Array
+                (
+                    [0] => inspector
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 4
+                    [user_login] => Inspector
+                    [user_pass] => $P$BU4ICtTQFq.NfqpjAqu7ZkWAlemC9d.
+                    [user_nicename] => inspector
+                    [user_email] => dani@oondeo.es
+                    [user_url] => 
+                    [user_registered] => 2022-11-02 08:15:16
+                    [user_activation_key] => 1667376916:$P$BVZK0HsafLzDj.Nfa0Gi.40mj53Gdt0
+                    [user_status] => 0
+                    [display_name] => Inspector
+                )
+
+            [ID] => 4
+            [caps] => Array
+                (
+                    [inspector] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => inspector
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_others_pages] => 1
+                    [delete_others_posts] => 1
+                    [delete_pages] => 1
+                    [delete_posts] => 1
+                    [delete_private_pages] => 1
+                    [delete_private_posts] => 1
+                    [delete_published_pages] => 1
+                    [delete_published_posts] => 1
+                    [edit_others_pages] => 1
+                    [edit_others_posts] => 1
+                    [edit_pages] => 1
+                    [edit_posts] => 1
+                    [edit_private_pages] => 1
+                    [edit_private_posts] => 1
+                    [edit_published_pages] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [level_3] => 1
+                    [level_4] => 1
+                    [level_5] => 1
+                    [level_6] => 1
+                    [level_7] => 1
+                    [manage_categories] => 1
+                    [manage_links] => 1
+                    [moderate_comments] => 1
+                    [publish_pages] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [read_private_pages] => 1
+                    [read_private_posts] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_copy_another_author] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_edit_another_author] => 1
+                    [solicitud_error_management] => 1
+                    [solicitud_read_another_author] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_remove_another_author] => 1
+                    [solicitud_send] => 1
+                    [solicitud_send_exim] => 1
+                    [unfiltered_html] => 1
+                    [upload_files] => 1
+                    [wpcf7_delete_contact_forms] => 1
+                    [wpcf7_delete_others_contact_forms] => 1
+                    [wpcf7_delete_published_contact_forms] => 1
+                    [wpcf7_edit_contact_forms] => 1
+                    [wpcf7_edit_others_contact_forms] => 1
+                    [wpcf7_edit_published_contact_forms] => 1
+                    [wpcf7_publish_contact_forms] => 1
+                    [wpcf7_read_contact_forms] => 1
+                    [inspector] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:54:17.078400 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => p2
+                    [user_email] => aa@local.com
+                    [display_name] => p2 p2
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => p2
+                    [first_name] => p2
+                    [last_name] => p2
+                    [wp-approve-user] => 1
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 19
+                    [user_login] => p2
+                    [user_pass] => $P$B9pn6fKdMHjrRVgqqY4karLuVSRa2B.
+                    [user_nicename] => p2
+                    [user_email] => aa@local.com
+                    [user_url] => 
+                    [user_registered] => 2022-12-29 10:59:34
+                    [user_activation_key] => 
+                    [user_status] => 0
+                    [display_name] => p2 p2
+                )
+
+            [ID] => 19
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:54:17.078500 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => p3
+                    [user_email] => p3@local.com
+                    [display_name] => p3 p3
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => p3
+                    [first_name] => p3
+                    [last_name] => p3
+                    [wp-approve-user] => 1
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 20
+                    [user_login] => p3
+                    [user_pass] => $P$BK26HetkFA2e2Gu4gTogbLUXgFB2S9.
+                    [user_nicename] => p3
+                    [user_email] => p3@local.com
+                    [user_url] => 
+                    [user_registered] => 2022-12-29 11:16:55
+                    [user_activation_key] => 
+                    [user_status] => 0
+                    [display_name] => p3 p3
+                )
+
+            [ID] => 20
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:54:17.078600 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => prueba1
+                    [user_email] => p1@oondeo.es
+                    [display_name] => p1 p1
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => prueba1
+                    [first_name] => p1
+                    [last_name] => p1
+                    [wp-approve-user] => 1
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 18
+                    [user_login] => prueba1
+                    [user_pass] => $P$BHdGyeDwsCLzS4qIXmSN.IMEx/HXuu.
+                    [user_nicename] => prueba1
+                    [user_email] => p1@oondeo.es
+                    [user_url] => 
+                    [user_registered] => 2022-12-29 10:54:43
+                    [user_activation_key] => 1672311283:$P$B8lJus6IBRIgFfILf.FkvQYrXKTGAA/
+                    [user_status] => 0
+                    [display_name] => p1 p1
+                )
+
+            [ID] => 18
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)
+
+!-- 2023/01/02 07:54:17.078700 --!
+User
+Array
+(
+    [simplified_user] => Array
+        (
+            [data] => Array
+                (
+                    [user_login] => Tecnico
+                    [user_email] => dani@info.com
+                    [display_name] => Tecnico
+                )
+
+            [meta_data] => Array
+                (
+                    [nickname] => Tecnico
+                    [first_name] => Tecnico
+                    [last_name] => 
+                    [wp-approve-user] => 1
+                )
+
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+        )
+
+    [wp_user] => WP_User Object
+        (
+            [data] => stdClass Object
+                (
+                    [ID] => 3
+                    [user_login] => Tecnico
+                    [user_pass] => $P$BjRwx/LOKm5wuRSmL1txov1RDD3WAE.
+                    [user_nicename] => tecnico
+                    [user_email] => dani@info.com
+                    [user_url] => 
+                    [user_registered] => 2022-11-02 08:14:44
+                    [user_activation_key] => 1667376884:$P$BI4tBUmRvGQIDlpe8fDXaqCbOnqx9F0
+                    [user_status] => 0
+                    [display_name] => Tecnico
+                )
+
+            [ID] => 3
+            [caps] => Array
+                (
+                    [tecnico] => 1
+                )
+
+            [cap_key] => wp_capabilities
+            [roles] => Array
+                (
+                    [0] => tecnico
+                )
+
+            [allcaps] => Array
+                (
+                    [delete_posts] => 1
+                    [delete_published_posts] => 1
+                    [edit_posts] => 1
+                    [edit_published_posts] => 1
+                    [level_0] => 1
+                    [level_1] => 1
+                    [level_2] => 1
+                    [publish_posts] => 1
+                    [read] => 1
+                    [solicitud_copy] => 1
+                    [solicitud_create] => 1
+                    [solicitud_edit] => 1
+                    [solicitud_remove] => 1
+                    [solicitud_send] => 1
+                    [upload_files] => 1
+                    [tecnico] => 1
+                )
+
+            [filter] => 
+            [site_id:WP_User:private] => 1
+        )
+
+)

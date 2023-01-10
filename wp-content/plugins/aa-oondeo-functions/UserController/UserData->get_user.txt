@@ -1,0 +1,54 @@
+
+!-- 2023/01/09 14:37:53.503900 --!
+User
+WP_User Object
+(
+    [data] => stdClass Object
+        (
+            [ID] => 31
+            [user_login] => 4444444N
+            [user_pass] => $P$BSBdgbK7sMR0KtE1QeYFbXxfK/i9gK/
+            [user_nicename] => ivani
+            [user_email] => ivan@inspector.com
+            [user_url] => 
+            [user_registered] => 2023-01-04 08:56:21
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => 4444444N
+        )
+
+    [ID] => 31
+    [caps] => Array
+        (
+            [tecnico] => 1
+        )
+
+    [cap_key] => wp_capabilities
+    [roles] => Array
+        (
+            [0] => tecnico
+        )
+
+    [allcaps] => Array
+        (
+            [delete_posts] => 1
+            [delete_published_posts] => 1
+            [edit_posts] => 1
+            [edit_published_posts] => 1
+            [level_0] => 1
+            [level_1] => 1
+            [level_2] => 1
+            [publish_posts] => 1
+            [read] => 1
+            [solicitud_copy] => 1
+            [solicitud_create] => 1
+            [solicitud_edit] => 1
+            [solicitud_remove] => 1
+            [solicitud_send] => 1
+            [upload_files] => 1
+            [tecnico] => 1
+        )
+
+    [filter] => 
+    [site_id:WP_User:private] => 1
+)

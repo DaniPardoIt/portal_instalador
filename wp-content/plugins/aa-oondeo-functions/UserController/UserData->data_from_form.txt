@@ -1,0 +1,53 @@
+
+!-- 2023/01/04 12:13:09.214800 --!
+Clean Form Data
+Array
+(
+    [form_action] => create
+    [user_id] => 
+    [user_type] => inspector
+    [tipo_documento] => NIF
+    [user_login] => 767777C
+    [first_name] => Ignacion
+    [last_name] => Inst
+    [user_email] => ignacio@instalacor.com
+    [tel_fijo] => 76
+    [tel_movil] => 767
+    [street_1] => Calle Instaladores 76
+    [state] => 7
+    [city] => 6
+    [postal_code] => 07670
+)
+
+!-- 2023/01/04 12:13:09.215100 --!
+WP_User
+
+
+!-- 2023/01/04 12:13:09.215100 --!
+USER
+Array
+(
+    [userdata] => Array
+        (
+            [tipo_documento] => NIF
+            [user_login] => 767777C
+            [first_name] => Ignacion
+            [last_name] => Inst
+            [user_email] => ignacio@instalacor.com
+            [tel_fijo] => 76
+            [tel_movil] => 767
+            [city] => 6
+            [street_1] => Calle Instaladores 76
+            [postal_code] => 07670
+            [user_pass] => xwOVABDUV6up
+            [user_nicename] => Ignacion
+            [nickname] => 767777C
+            [mobile] => 767
+            [phone] => 76
+            [notes] => NIF/CIF: 767777C
+            [company] => Ignacion Inst
+            [state] => 7
+        )
+
+    [role] => inspector
+)

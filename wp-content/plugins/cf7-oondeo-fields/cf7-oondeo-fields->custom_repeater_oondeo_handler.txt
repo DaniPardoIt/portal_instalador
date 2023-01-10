@@ -1,0 +1,107 @@
+
+!-- 2023/01/10 08:33:06.284700 --!
+tag:
+WPCF7_FormTag Object
+(
+    [type] => repeateroondeo
+    [basetype] => repeateroondeo
+    [raw_name] => tasas_presupuesto
+    [name] => tasas_presupuesto
+    [options] => Array
+        (
+            [0] => type:tasas
+            [1] => title:Tasas
+            [2] => itemTitle:Tasa
+            [3] => addButtonText
+            [4] => otraOpcion
+        )
+
+    [raw_values] => Array
+        (
+            [0] => Añadir Justificante de Pago
+            [1] => Otra Opcion
+        )
+
+    [values] => Array
+        (
+            [0] => Añadir Justificante de Pago
+            [1] => Otra Opcion
+        )
+
+    [pipes] => WPCF7_Pipes Object
+        (
+            [pipes:WPCF7_Pipes:private] => Array
+                (
+                    [0] => WPCF7_Pipe Object
+                        (
+                            [before] => Añadir Justificante de Pago
+                            [after] => Añadir Justificante de Pago
+                        )
+
+                    [1] => WPCF7_Pipe Object
+                        (
+                            [before] => Otra Opcion
+                            [after] => Otra Opcion
+                        )
+
+                )
+
+        )
+
+    [labels] => Array
+        (
+            [0] => Añadir Justificante de Pago
+            [1] => Otra Opcion
+        )
+
+    [attr] => 
+    [content] => <div id="repeater_tasas" class="repeater-item repeater-closed">
+						<div class="repeater-item-header">
+							<h4>Tasa 1</h4>
+							<div class="repeater-actions-container">
+								<button id="edit_repeater_tasas" class="btn btn-azul">
+									<i class="fa-regular fa-pen-to-square"></i>
+								</button>
+								<button id="duplicate_repeater_tasas" class="btn btn-naranja">
+									<i class="fa-regular fa-copy"></i>
+								</button>
+								<button id="remove_repeater_tasas" class="btn btn-error">
+									<i class="fa-regular fa-trash-can"></i>
+								</button>
+							</div>
+						</div>
+						<div class="repeater-input-container grid-2-col gap-20">
+							<div id="grupo_justificante_pago" class="grupo-formulario">
+								<label for="justificante_pago">Justificante de Pago</label> 
+								<input type="text" name="justificante_pago" value="" class="wpcf7-form-control wpcf7-hidden">
+							</div>
+							<div id="grupo_importe_pago" class="grupo-formulario">
+								<label for="importe_pago">Importe del Pago</label> 
+								<input type="number" name="importe_pago" value="" class="wpcf7-form-control wpcf7-hidden">
+							</div>
+							<div id="grupo_nombre_banco" class="grupo-formulario">
+								<label for="nombre_banco">Nombre Banco</label> 
+								<input type="text" name="nombre_banco" value="" class="wpcf7-form-control wpcf7-hidden">
+							</div>
+							<div id="grupo_entidad" class="grupo-formulario">
+								<label for="entidad">Entidad</label> 
+								<input type="text" name="entidad" value="" class="wpcf7-form-control wpcf7-hidden">
+							</div>
+							<div id="grupo_cuenta_bancaria" class="grupo-formulario">
+								<label for="cuenta_bancaria">Cuenta Bancaria</label> 
+								<input type="text" name="cuenta_bancaria" value="" class="wpcf7-form-control wpcf7-hidden">
+							</div>
+						</div>
+					</div>
+)
+
+!-- 2023/01/10 08:33:06.284900 --!
+options:
+Array
+(
+    [type] => tasas
+    [title] => Tasas
+    [itemTitle] => Tasa
+    [addButtonText] => Añadir Justificante de Pago
+    [otraOpcion] => Otra Opcion
+)

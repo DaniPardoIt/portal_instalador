@@ -1,0 +1,593 @@
+debugON = true;
+
+	let arraySelectorBotones = [
+		{ 
+			id: "btn-datos-generales", 
+			name: "Datos Generales de la Solicitud" 
+		},
+		{ 
+			id: "btn-tasas-presupuesto", 
+			name: "Tasas y Presupuesto" 
+		},
+		{ 
+			id: "btn-emplazamiento-instalacion", 
+			name: "Emplazamiento de la Instalación" 
+		},
+		{ 
+			id: "btn-nueva-entidad-interesada", 
+			name: "Nueva Entidad Interesada" 
+		},
+		{ 
+			id: "btn-datos-titular", 
+			name: "Datos Titular" 
+		},
+		{ 
+			id: "btn-datos-representante", 
+			name: "Datos Representante" 
+		},
+		{ 
+			id: "btn-datos-empresa-instaladora-electricista", 
+			name: "Datos Empresa Instaladora Electricista" 
+		},
+		{ 
+			id: "btn-datos-instalador-electricista", 
+			name: "Datos Instalador Electricista" 
+		},
+		{ 
+			id: "btn-datos-proyectista", 
+			name: "Datos Proyectista" 
+		},
+		{ 
+			id: "btn-datos-director-obra", 
+			name: "Datos Director de Obra" 
+		},
+		{ 
+			id: "btn-datos-tecnicos-instalacion", 
+			name: "Datos Técnicos de la Instalación" 
+		},
+		{ 
+			id: "btn-documentos-adjuntos", 
+			name: "Documentos Adjuntos" 
+		},
+		{ 
+			id: "btn-certificados-informes", 
+			name: "Certificados e Informes" 
+		}
+	]
+
+
+let arraySelectorBotonesClean = [...arraySelectorBotones]
+
+
+function buildSelectorButton( id, text, functionOnClick = null ){
+	let btnEl = document.createElement('div')
+	btnEl.id = id
+	btnEl.classList.add('boton', 'desactivado')
+	btnEl.addEventListener('click', ()=>{
+		
+		console.log( `opcionActual: ${opcionActual}` )
+		console.log( `btn.id: ${btnEl.id}` )
+		if( btnEl.id != `btn-${opcionActual}` ){
+			if ( !validateRequiredInputsSection( opcionActual ) ){
+				return false;
+			}
+		}
+		// Deshabilitar la navegación a botones con la clase .desactivado pinchándoles directamente (Se debe hacer con las flechas adelante y atrás)
+		// if( btn.classList.contains('desactivado') ){
+		// 	return false;
+		// }
+		let opcion = document.getElementsByName('opcion')[0];
+		opcion.value = btnEl.id.replace( 'btn-','' )
+		opcion.click();
+		removeClass( botonesVisiblesSelector, 'active' )
+		btnEl.classList.add( 'active' )
+		btnEl.classList.remove( 'desactivado' )
+		
+		opcionActual = btnEl.id.substring(4)
+		
+		if(functionOnClick != null){
+			functionOnClick()
+		}
+	})
+	btnEl.appendChild(document.createTextNode(text))
+	return btnEl
+}
+
+function limpiarArraySelectorBotones( idsToRemove ){
+		idsToRemove.forEach( idToRem => {
+			arraySelectorBotonesClean = arraySelectorBotonesClean.filter( elBtn => {
+					return elBtn.id != idToRem
+			} )
+		})
+}
+
+if( !debugON ){
+	jQuery('document').ready( ()=>{
+		let selectorBotones = document.querySelector('#selector-botones')
+		let { tipo } = getDataFromURL();
+
+		if( tipo == 'mem' ){
+			// console.log('TIPO MEM')
+			// console.log( arraySelectorBotones )
+
+			limpiarArraySelectorBotones(  ['btn-nueva-entidad-interesada', 'btn-datos-representante', 'btn-datos-proyectista', 'btn-datos-director-obra'] )
+			
+			// console.log('ArraySelectorBotones Final')
+			// console.log( arraySelectorBotones )
+		}else if( tipo == 'pr' ){
+			// console.log('TIPO PR')
+			// console.log( arraySelectorBotones )
+			limpiarArraySelectorBotones(  ['btn-nueva-entidad-interesada','btn-datos-representante'] )
+			// console.log('ArraySelectorBotones Final')
+			// console.log( arraySelectorBotones )
+		}
+
+		let form = document.querySelectorAll('form.wpcf7-form')[0]
+		form.addEventListener('submit', e=>{
+			e.preventDefault()
+		})
+		console.log(form)
+
+		function botonSelectorFunctionOnclick(){
+			console.log( `opcionActual: ${opcionActual}` )
+			console.log( `btn.id: ${btn.id}` )
+			if( btn.id != `btn-${opcionActual}` ){
+				if ( !validateRequiredInputsSection( opcionActual ) ){
+					return false;
+				}
+			}
+			// Deshabilitar la navegación a botones con la clase .desactivado pinchándoles directamente (Se debe hacer con las flechas adelante y atrás)
+			// if( btn.classList.contains('desactivado') ){
+			// 	return false;
+			// }
+			let opcion = document.getElementsByName('opcion')[0];
+			opcion.value = btn.id.replace( 'btn-','' )
+			opcion.click();
+			removeClass( botonesVisiblesSelector, 'active' )
+			btn.classList.add( 'active' )
+			btn.classList.remove( 'desactivado' )
+			
+			opcionActual = btn.id.substring(4)
+		}
+
+		arraySelectorBotonesClean.forEach( b => {
+			selectorBotones.appendChild( buildSelectorButton( b.id, b.name ) )
+		} )
+
+		window.botonesVisiblesSelector = Array.from(document.querySelector('.selector-botones').children);
+		// botonesVisiblesSelector.forEach( btn => {
+		// 	btn.addEventListener('click', ()=>{
+		// 			// console.log('click')
+		// 			// console.log(btn)
+		// 			console.log( `opcionActual: ${opcionActual}` )
+		// 			console.log( `btn.id: ${btn.id}` )
+		// 			if( btn.id != `btn-${opcionActual}` ){
+		// 				if ( !validateRequiredInputsSection( opcionActual ) ){
+		// 					return false;
+		// 				}
+		// 			}
+
+		// 			// Deshabilitar la navegación a botones con la clase .desactivado pinchándoles directamente (Se debe hacer con las flechas adelante y atrás)
+		// 			// if( btn.classList.contains('desactivado') ){
+		// 			// 	return false;
+		// 			// }
+		// 			let opcion = document.getElementsByName('opcion')[0];
+		// 			opcion.value = btn.id.replace( 'btn-','' )
+		// 			opcion.click();
+		// 			removeClass( botonesVisiblesSelector, 'active' )
+		// 			btn.classList.add( 'active' )
+		// 			btn.classList.remove( 'desactivado' )
+					
+		// 			opcionActual = btn.id.substring(4)
+		// 	})
+		// });
+	} )
+}
+
+function borrarBotonSelectorSolicitud( id ){
+	//console.log('borrarBoton')
+	arraySelectorBotonesClean = arraySelectorBotonesClean.filter( b => b.id != id )
+	//console.log(arraySelectorBotonesClean)
+	let selectorBotones = document.querySelector('#selector-botones')
+	//console.log(selectorBotones)
+	let btnBorrar = selectorBotones.querySelector(`#${id}`)
+		//console.log(btnBorrar)
+	if(!selectorBotones){
+		//console.log('El elemento selector no es correcto:')
+		//console.log(selectorBotones)
+		return false;
+	}
+	if(!btnBorrar){
+		// console.log('El elemento botón no es correcto:')
+		// console.log(btnBorrar)
+		return false;
+	}
+	selectorBotones.removeChild( btnBorrar )
+}
+
+function addBotonSelectorSolicitud( btnId, btnText, functionOnClick = null, insertBeforeElement=null, insertAfterElement=null ){
+	// console.log('addBoton')
+	arraySelectorBotonesClean.push( {id: btnId, name: btnText} )
+	// console.log( arraySelectorBotonesClean )
+
+	let btnAdd = buildSelectorButton( btnId, btnText, functionOnClick )
+	// console.log( btnAdd )
+	let selectorBotones = document.querySelector('#selector-botones')
+	if( insertBeforeElement ){
+		selectorBotones.insertBefore( btnAdd, insertBeforeElement )
+	}else if( insertAfterElement ){
+		selectorBotones.insertBefore( btnAdd, insertBeforeElement.nextSibling )
+	}else{
+		selectorBotones.appendChild( btnAdd )
+	}
+}
+
+/* Seleccionar Opción Por Defecto */
+if( !debugON ){
+	jQuery('document').ready( ()=>{
+		window.opcionActual = 'datos-generales';
+		document.getElementById(`btn-${opcionActual}`).classList.remove('desactivado')
+		document.getElementById(`btn-${opcionActual}`).click()
+	} )
+}
+
+/* PreventDefault Botones Cancelar, Guardar, Enviar */
+function prevDefaultBotonesFormulario(){
+	const form = document.querySelector('form.wpcf7-form')
+	const formAction = document.getElementsByName('form-action')[0];
+
+	const cancelarBtn = document.querySelector('#cancelar-btn')
+	cancelarBtn.addEventListener('click', e=>{
+		e.preventDefault();
+
+		// console.log(e)
+	})
+
+	const guardarBtn = document.querySelector('#guardar-btn')
+	guardarBtn.addEventListener('click', e=>{
+		e.preventDefault();
+		// console.log(e)
+		if( debugON == true ){
+			form.submit();
+			return true;
+		}
+		//formAction.value = "guardar"
+		
+		if( validateAllRequiredInputs() ){
+			// Hay que encontrar la manera de hacer submit a todos los campos incluso los ocultos
+			form.submit()
+		}
+		
+	})
+	
+	const anteriorBtn = document.querySelector('#anterior-btn')
+	anteriorBtn.addEventListener('click', e=>{
+		e.preventDefault();
+		//console.log(e)
+		let index = botonesVisiblesSelector.findIndex( el=>{
+			return el.id == `btn-${opcionActual}`
+		} )
+		if( index > 0 ){
+			if( !validateRequiredInputsSection(opcionActual) ){
+				return false;
+			}
+			let botonOpcionActual = botonesVisiblesSelector[--index]
+			botonOpcionActual.classList.remove('desactivado')
+			botonOpcionActual.click()
+			opcionActual = botonOpcionActual.id.substring(4)
+			// console.log(botonOpcionActual)
+			// console.log(opcionActual)
+		}else{
+			console.log('Es el Primer Elemento //To do-->Disable Prev Button')
+		}
+	})
+
+	const siguienteBtn = document.querySelector('#siguiente-btn')
+	siguienteBtn.addEventListener('click', e=>{
+		e.preventDefault();
+		// console.log(e)
+		let index = botonesVisiblesSelector.findIndex( el=>{
+			return el.id == `btn-${opcionActual}`
+		} )
+		if( index < botonesVisiblesSelector.length-1 ){
+			if( !validateRequiredInputsSection(opcionActual) ){
+				return false;
+			}
+			let botonOpcionActual = botonesVisiblesSelector[++index]
+			botonOpcionActual.classList.remove('desactivado')
+			botonOpcionActual.click()
+			opcionActual = botonOpcionActual.id.substring(4)
+			// console.log(botonOpcionActual)
+			// console.log(opcionActual)
+		}else{
+			console.log('Es Ultimo Elemento //To do-->Disable Next Button')
+		}
+	})
+}
+jQuery('document').ready( prevDefaultBotonesFormulario )
+
+
+let attatchedFiles = []
+
+function checkIfAttatchedFileIsDuplicated( name ){
+	attatchedFiles = attatchedFiles.filter( af => {
+		console.log(`name : ${name}`)
+		console.log( 'attatchedFiles antes de quitar duplicados' )
+		console.log( attatchedFiles )
+		return af.inputName != name;
+	} )
+	console.log( 'attatchedFiles después de quitar duplicados' )
+	console.log( attatchedFiles )
+	
+	return attatchedFiles;
+}
+
+function updateAllAttatchedFiles(){
+	let inFiles = Array.from( document.querySelectorAll("input[type='file']") )
+	attatchedFiles = []
+	inFiles.forEach( inFile => {
+		console.log('adding:...')
+		console.log( inFile.files )
+		attatchedFiles.push( ...inFile.files )
+	} )
+	console.log('updatedAttatchedFiles:...')
+	console.log(attatchedFiles)
+}
+
+function fileOnChange(){
+	let inFiles = Array.from( document.querySelectorAll("#grid-documentos-adjuntos input[type='file']") )
+
+	inFiles.forEach( i => {
+		i.onchange = ({target}) => {
+			console.log('change')
+			console.log(target)
+			let targetFiles = Array.from(target.files)
+			console.log(targetFiles)
+			// checkIfAttatchedFileIsDuplicated( target.name )
+			// targetFiles.forEach( tf => {
+			// 	tf.inputName = target.name
+			// } )
+			// attatchedFiles.push( ...targetFiles )
+			// console.log( attatchedFiles )
+			updateAllAttatchedFiles();
+			if( target.name == 'otros-archivos-adjuntos' ){
+				let removeFileButtons = document.querySelectorAll('.remove-file');
+				removeFileButtons.forEach( rfb => {
+					rfb.addEventListener( 'click', ()=>{ updateAllAttatchedFiles() } )
+				} )
+				return true;
+			} 
+			let parent = target.parentElement.parentElement.parentElement
+			console.log( parent )
+			let fileName = parent.querySelector(".tag-nombre-archivo")
+			fileName.innerHTML = targetFiles[0].name
+			console.log(fileName)
+			let fileDate = parent.querySelector(".tag-fecha-adjuntado")
+			fileDate.innerHTML = targetFiles[0].lastModifiedDate.toLocaleDateString('en-GB').split('/').reverse().join('-')
+			console.log(targetFiles[0].lastModifiedDate.toLocaleDateString('en-GB').split('/').reverse().join('-'))
+			let fileStatus = parent.querySelector('.tag-estado-envio')
+			fileStatus.innerHTML = 'OK'
+		}
+	})
+}
+jQuery('document').ready( fileOnChange )
+
+function validateAllRequiredInputs(){
+	let formValido = true;
+
+	let allActiveGroups = []
+	arraySelectorBotonesClean.forEach( btn => {
+		allActiveGroups.push( btn.id.substring(4) )
+	})
+	console.log( allActiveGroups )
+
+	allActiveGroups.forEach( activeGroup => {
+		if( validateRequiredInputsSection( activeGroup ) ){
+			let sectionActive = document.querySelector(`.seccion-${activeGroup}-wrapper`)
+			console.log(`.seccion-${activeGroup}-wrapper:`)
+			console.log( sectionActive )
+		}else{
+			formValido = false;
+		}
+	} )
+	console.log(`validateAllRequiredInputs() : ${formValido}`)
+	return formValido;
+	return true; //Para Pruebas Validado = true
+}
+
+function validateRequiredInputsSection( opcionActual ){
+	let insToValidate = document.querySelectorAll(`.seccion-${opcionActual}-wrapper .wpcf7-validates-as-required`);
+	// console.log(insToValidate)
+
+	let allFieldsValidated = true;
+
+	insToValidate.forEach( input => {
+		input.classList.remove('error')
+		if( !input.value ){
+			allFieldsValidated = false;
+			input.classList.add('error')
+			// console.log(input)
+			parent = input.parentElement
+			//console.log(parent)
+			while( !parent.classList.contains('grupo-formulario') ){
+				//console.log(parent)
+				parent = parent.parentElement
+			}
+			parent.classList.add('error')
+		}
+	} )
+
+	if( allFieldsValidated ){
+		document.querySelector(`#btn-${opcionActual}`).classList.add('validado')
+		document.querySelector(`#btn-${opcionActual}`).classList.remove('error')
+		return true;
+	}else{
+		document.querySelector(`#btn-${opcionActual}`).classList.remove('validado')
+		document.querySelector(`#btn-${opcionActual}`).classList.add('error')
+		return false;
+	}
+}
+
+function modificarBotonSubidaDocumentosAdjuntos(){
+	let docAdjContenedor = document.querySelectorAll('.grid-documentos-adjuntos')
+	let inputFIles
+	docAdjContenedor.forEach( dac => {
+		inputFiles = dac.querySelectorAll('input[type=file]')
+		inputFiles.forEach( i => {
+			i.id = i.name;
+			i.classList.add('transparent')
+				let label = document.createElement('label')
+				label.id = `label-${i.id}`
+				label.classList.add('subir-documento-btn')
+				label.setAttribute( 'for', i.id )
+				label.innerHTML = '<i class="fa-solid fa-arrow-up-from-bracket"></i>'
+			i.parentElement.appendChild(label)
+		} )
+	} )
+}
+jQuery('document').ready( modificarBotonSubidaDocumentosAdjuntos )
+
+function getDataFromURL(){
+	const urlParams = new URLSearchParams(window.location.search)
+	const campoActuacion = urlParams.get('campo-actuacion')
+	// console.log(campoActuacion)
+	const subcampoActuacion = urlParams.get('subcampo-actuacion')
+	// console.log(subcampoActuacion)
+	const tipo = urlParams.get('tipo-solicitud')
+	// console.log(tipo)
+	const params = {
+		"campoActuacion": campoActuacion,
+		"subcampoActuacion": subcampoActuacion,
+		"tipo": tipo
+	}
+	// console.log('Params')
+	// console.log(params)
+	return params
+}
+
+function changeValuesFromURLParams(){
+	const { campoActuacion, subcampoActuacion, tipo } = getDataFromURL()
+
+	console.log('URL Params')
+	console.log([campoActuacion, subcampoActuacion, tipo])
+
+	const inCampoActuacion = document.querySelector('input[name="campo-actuacion"]')
+	const inTipoSolicitud = document.querySelector('input[name="tipo-solicitud"')
+	const inSubcampoActuacion = document.querySelector('input[name="subcampo-actuacion"]')
+	console.log('Inputs')
+	console.log([inCampoActuacion, inSubcampoActuacion, inTipoSolicitud])
+
+	const dataCampoActuacion = DatosInstalaciones.find( el => el.short_name == campoActuacion);
+	console.log(dataCampoActuacion)
+	const dataSubcampoActuacion = dataCampoActuacion.subcats.find( el => el.short_name == subcampoActuacion )
+	const dataTipoSolicitud = dataSubcampoActuacion.subcats.find( el => el.short_name == tipo )
+	console.log('Datas')
+	console.log([dataCampoActuacion, dataSubcampoActuacion, dataTipoSolicitud])
+
+	inCampoActuacion.value = dataCampoActuacion.name ;
+	inCampoActuacion.dispatchEvent(new Event('change'))
+	inSubcampoActuacion.value = dataSubcampoActuacion.name
+	inTipoSolicitud.value = dataTipoSolicitud.name
+	inTipoSolicitud.dispatchEvent(new Event('change'))
+
+	console.log([inCampoActuacion, inSubcampoActuacion, inTipoSolicitud])
+	console.log([inCampoActuacion.value, inSubcampoActuacion.value, inTipoSolicitud.value])
+}
+if( !debugON ){
+	jQuery('document').ready( changeValuesFromURLParams )
+}
+
+jQuery('document').ready(()=>{
+	const box = document.querySelector('.upload-box');
+	const fileInput = document.querySelector('[name="otros-documentos-adjuntos[]"');
+	const selectButton = document.querySelector('label strong');
+	const gridOtrosDocumentos = document.querySelector('#grid-otro-documentoss-adjuntos')
+	const fileList = document.querySelector('#grid-otros-documentos-adjuntos .file-list')
+	const fileTypes = [
+		{
+			'id':	'pdf',
+			'name':	'PDF',
+			'icon_html': '<i class="fa-regular fa-file-pdf"></i>',
+			'icon_unicode': 'f1c1'
+		},
+		{
+			'id':	'img',
+			'name':	'Image',
+			'icon_html': '<i class="fa-regular fa-file-image"></i>',
+			'icon_unicode': 'f1c5'
+		},
+		{
+			'id':	'zip',
+			'name':	'Zip File',
+			'icon_html': '<i class="fa-regular fa-file-zipper"></i>',
+			'icon_unicode': 'f1c6'
+		}
+	]
+
+	function getIconFileType( id ){
+		let fileType = fileTypes.filter( ft => {
+			console.log(ft)
+			return ft.id === id;
+		} )[0]
+
+		console.log('fileType')
+		console.log(fileType)
+		return fileType.icon_html
+	}
+
+	function ddmmyyyyDate( date ){
+		let dd = String(date.getDate()).padStart(2, '0');
+		let mm = String(date.getMonth() + 1).padStart(2, '0');
+		let yyyy = date.getFullYear();
+
+		return `${dd}/${mm}/${yyyy}`;
+	}
+
+	let droppedFiles = [];
+	
+	[ 'drag', 'dragstart', 'dragend', 'dragover', 'dragenter', 'dragleave', 'drop' ].forEach( event => box.addEventListener(event, function(e) {
+		e.preventDefault();
+		e.stopPropagation();
+	}), false );
+	
+	[ 'dragover', 'dragenter' ].forEach( event => box.addEventListener(event, function(e) {
+			box.classList.add('is-dragover');
+	}), false );
+	
+	[ 'dragleave', 'dragend', 'drop' ].forEach( event => box.addEventListener(event, function(e) {
+			box.classList.remove('is-dragover');
+	}), false );
+	
+	box.addEventListener('drop', function(e) {
+			droppedFiles = e.dataTransfer.files;
+			fileInput.files = droppedFiles;
+			updateFileList();
+	}, false );
+	
+	fileInput.addEventListener( 'change', updateFileList );
+	function updateFileList() {
+		console.log(fileInput.files)
+		let files = Array.from( fileInput.files );
+		fileList.innerHTML = ''
+		files.forEach( f => {
+			fileList.innerHTML += `
+			<div class="grid-adjuntos-item documento-adjunto-wrapper">
+				<div class="grupo-formulario">
+					<span class="tag-documento-adjuntado">${getIconFileType( 'pdf' )}</span>
+				</div>
+				<div class="grupo-formulario">
+					<span class="tag-nombre-archivo">${f.name}</span>
+				</div>
+				<div class="grupo-formulario">
+					<span class="tag-fecha-adjuntado">${ddmmyyyyDate( new Date() )}</span>
+				</div>
+				<div class="grupo-formulario">
+					<span class="tag-estado-envio">OK</span>
+				</div>
+			</div>
+			`
+
+		} )
+	}
+
+})
